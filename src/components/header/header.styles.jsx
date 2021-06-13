@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components"; // css
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
   height: 70px;
@@ -27,3 +27,17 @@ export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
+
+// use css from styled-components when we use same style to two or more elements
+// const OptionsContainerStyles = css`
+//   padding: 10px 15px;
+//   cursor: pointer;
+// `;
+
+// export const OptionLink = styled(Link)`
+//   ${OptionsContainerStyles}
+// `;
+
+// export const OptionDiv = styled(Link)`
+//   ${OptionsContainerStyles}
+// `;
